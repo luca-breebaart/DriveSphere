@@ -56,13 +56,6 @@ body {
 
 }
 
-.headerimage {
-  position: absolute;
-  width: 709.36px;
-  height: 982.64px;
-  left: 652px;
-  top: -152px;
-}
 
 .topnav {
   position: relative;
@@ -93,8 +86,16 @@ body {
   color: rgb(0, 0, 0);
 }
 
+/* HEADER */
 
 
+.headerimage {
+  position: absolute;
+  width: 709.36px;
+  height: 982.64px;
+  left: 652px;
+  top: -152px;
+}
 
 .heading {
   position: absolute;
@@ -125,7 +126,9 @@ body {
   color: #ffffff;
 }
 
-.searchbox{
+/* HEADER */
+
+.searchbox {
   position: absolute;
   width: 1150px;
   height: 154px;
@@ -137,79 +140,75 @@ body {
   border-radius: 10px;
 }
 
-.section-1{
+.section-1 {
   position: relative;
-  height: 500px;
+  height: 200px;
   background-color: #ffffff;
 
 }
 
-.car-search-container {
-  position: absolute;
-  width: 1150px;
-  height: 154px;
-  left: 160px;
-  top: -75px;
-  background: #FFFFFF;
+/* /
+
+Search bar
+
+*/
+.card2 {
+  position: relative;
+  top: 50px;
+  width: 1000px;
+  max-width: 1100px;
+  margin: 0 auto;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.car-search {
-  max-width: 1000px;
   padding: 20px;
+}
+
+
+.card {
+  top: -75px;
+  width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px;
 }
 
-.form-group {
-  display: inline-block;
-  margin-right: 25px;
-}
-
-
-.form-group label {
-  display: block;
+.form-label {
   font-weight: bold;
-  margin-bottom: 20px;
 }
 
-.form-group select {
-  width: 200px;
+.form-control {
   height: 40px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 5px;
   font-size: 16px;
 }
 
-.search-btn {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  width: 175px;
+.btn {
   border-radius: 5px;
-  padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  margin-left: 10px;
 }
 
-.search-btn:hover {
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
   background-color: #0069d9;
 }
 
-.form-group:last-child {
-  margin-right: 0;
-}
+
+/* /
+
+Search bar
+
+*/
 
 
 .home-section {
   position: relative;
-  top: 100px;
-  background-color: none;
+  background-color: white;
   padding: 50px;
   text-align: center;
 }
@@ -250,3 +249,84 @@ body {
 .btn:hover {
   background-color: #0063a3;
 }
+
+/* compare page */
+
+.comparebox {
+  top: 150px;
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 20px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.comparebox2 {
+  top: 150px;
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.comparebutton {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 30px;
+  background-color: #165daf;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comparebutton:hover {
+  background-color: #10427a;
+  ;
+}
+
+.removebutton {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #808080;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comparremovebuttonebutton:hover {
+  background-color: #3a3a3a;
+  ;
+}
+
+/* import React, { useState } from 'react';
+
+function MyComponent() {
+  const [carAdded, setCarAdded] = useState(false);
+  const maxSpeed = 200; // assuming this is defined somewhere
+
+  const handleAddCarClick = () => {
+    setCarAdded(true);
+  };
+
+  return (
+    <div className="col-sm-6">
+      <div className="comparebox">
+        <h3>Box 1</h3>
+        <button className="comparebutton" onClick={handleAddCarClick}>
+          {carAdded ? 'Car Added!' : 'Add Car'}
+        </button>
+        <p>
+          max speed: {maxSpeed} km/h
+          <br /> hello
+        </p>
+      </div>
+    </div>
+  );
+}
+*/
