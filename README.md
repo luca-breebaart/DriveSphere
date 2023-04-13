@@ -20,7 +20,7 @@ A polar area chart showing the number of cylinders, gears, and valves per cylind
 
 #Timeline Page
 
-This is a web application built using React and various APIs that allows users to select a car model and view its specifications, including fuel consumption, acceleration, and range. The user can select a car make, model, generation, and trim, and the application retrieves the car's specifications from the API and displays them in a graph format using Chart.js. The app also allows the user to switch between the different graphs and view different car models by selecting different options from the dropdown menus. The goal of this application is to provide users with an easy way to compare and visualize the specifications of different car models.
+The user can select a car make, model, generation, and trim, and the application retrieves the car's specifications from the API and displays them in a graph format using Chart.js. The Web page also allows the user to switch between the different graphs and view different car models by selecting different options from the dropdown menus. The goal of this application is to provide users with an easy way to compare and visualize the specifications of different car models.
 
 #Technologies Used
 The website is built using React and uses the following libraries:
