@@ -6,7 +6,7 @@
 <p align="center">
 
   <a href="https://github.com/username/projectname">
-    <img src="path/to/logo" alt="Logo" width="140" height="140">
+    <img src="src/images/logo.png" alt="Logo" width="140" height="140">
   </a>
   
   <h3 align="center">DriveSphere</h3>
@@ -58,7 +58,7 @@
 
 ### Project Description
 
-This is a website that allows users to search for cars and compare their specifications. It includes three pages: Home, Compare, and Timeline, all of which . The Car Specs API, available on RapidAPI, is a powerful tool for accessing information about cars. This API allows users to access a vast database of car details, including make, model, year, trim level, pricing, features, specifications, and expert reviews. Using this Data, specs on each vehicle are displayed and displayed using chart.js on this site.
+This is a website that allows users to search for cars and compare their specifications. It includes three pages: Home, Compare, and Timeline, all of which. The Car Specs API, available on RapidAPI, is a powerful tool for accessing car information. This API allows users to access a vast database of car details, including make, model, year, trim level, pricing, features, specifications, and expert reviews. Using this data, specs on each vehicle are displayed using chart.js on this site.
 
 ### Built With
 
@@ -67,10 +67,10 @@ This is a website that allows users to search for cars and compare their specifi
 * [Technology Name](path/to/technology/website)
 
 <!-- GETTING STARTED -->
-<!-- Make sure to add appropriate information about what prerequesite technologies the user would need and also the steps to install your project on their own mashines -->
+<!-- Make sure to add appropriate information about what prerequisite technologies the user would need and also the steps to install your project on their own mashines -->
 ## Getting Started
 
-The following instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+The following instructions will get you a copy of the project up and running on your local machine for development and testing.
 
 ### Prerequisites
 
@@ -130,7 +130,7 @@ When a user adds a car, the technical specifications and dimensions of that car 
 ![image4][image4]
 ### Timeline Page
 
-The user can select a car make, model, generation, and trim, and the application retrieves the cars specifications from the API and displays them in a graph format using Chart.js. The Web page also allows the user to switch between the different graphs; Fuel consumption, acceleration and range
+The user can select a car make, model, generation, and trim, and the application retrieves the car specifications from the API and displays them in a graph format using Chart.js. The Web page also allows the user to switch between the different graphs; Fuel consumption, acceleration and range
 
 The goal of this application is to provide users with an easy way to compare and visualize the specifications of different car models.
 
@@ -181,7 +181,7 @@ The goal of this application is to provide users with an easy way to compare and
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
 
-To see a run through of the application, click below:
+To see a run-through of the application, click below:
 
 [View Demonstration](path/to/video/demonstration)
 
