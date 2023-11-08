@@ -134,7 +134,7 @@ The goal of this application is to provide users with an easy way to compare and
 
 ![wireframes1](DV200_wireframes/Index.png)
 <br>
-![wireframes2](DV200_wireframes/Timeline.png)
+![wireframes2](DV200_wireframes/Timeline_page.png)
 <br>
 ![wireframes3](DV200_wireframes/Compare_page.png)
 <br>
