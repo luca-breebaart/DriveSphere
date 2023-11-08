@@ -121,7 +121,7 @@ When a user adds a car, the technical specifications and dimensions of that car 
 
 ### Timeline Page
 
-The user can select a car make, model, generation, and trim, and the application retrieves the cars specifications from the API and displays them in a graph format using Chart.js. The Web page also allows the user to switch between the different graphs; Fuel consumption, acceleration and range
+The user can select a car make, model, generation, and trim, and the application retrieves the car specifications from the API and displays them in a graph format using Chart.js. The Web page also allows the user to switch between the different graphs; Fuel consumption, acceleration and range
 
 The goal of this application is to provide users with an easy way to compare and visualize the specifications of different car models.
 
@@ -131,8 +131,11 @@ The goal of this application is to provide users with an easy way to compare and
 ### Wireframes
 
 ![wireframes1](DV200_wireframes/Index.png)
+<br>
 ![wireframes2](DV200_wireframes/Timeline.png)
+<br>
 ![wireframes3](DV200_wireframes/Compare_page.png)
+<br>
 
 ## Development Process
 
@@ -167,10 +170,13 @@ The goal of this application is to provide users with an easy way to compare and
 ### Mockups
 
 ![1](mockups/1.jpg)
+<br>
 ![2](mockups/2.jpg)
+<br>
 ![3](mockups/3.jpg)
+<br>
 ![4](mockups/4.jpg)
-
+<br>
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
