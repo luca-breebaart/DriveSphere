@@ -58,9 +58,7 @@ This is a website that allows users to search for cars and compare their specifi
 
 ### Built With
 
-* React(path/to/technology/website)
-* [Technology Name](path/to/technology/website)
-* [Technology Name](path/to/technology/website)
+- [VS Code](https://code.visualstudio.com/)
 
 <!-- GETTING STARTED -->
 <!-- Make sure to add appropriate information about what prerequisite technologies the user would need and also the steps to install your project on their own machines -->
