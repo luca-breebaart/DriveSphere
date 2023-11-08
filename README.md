@@ -58,7 +58,8 @@ This is a website that allows users to search for cars and compare their specifi
 
 ### Built With
 
-- [VS Code](https://code.visualstudio.com/)
+React
+Javascript
 
 <!-- GETTING STARTED -->
 <!-- Make sure to add appropriate information about what prerequisite technologies the user would need and also the steps to install your project on their own machines -->
@@ -70,6 +71,7 @@ The following instructions will get you a copy of the project up and running on 
 
 Before getting started, ensure you have the following software installed:
 
+- [VS Code](https://code.visualstudio.com/)
 - [React](https://react.dev/learn/installation)
 - [Chart.js](https://www.chartjs.org/docs/latest/getting-started/installation.html)
 - [React Router](https://reactrouter.com/en/main)
