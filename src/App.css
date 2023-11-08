@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -49,7 +45,7 @@ body {
   width: 100%;
 }
 
-.CompareBody{
+.CompareBody {
   position: absolute;
   background: #9CA6AF;
   height: 100px;
@@ -96,7 +92,7 @@ body {
 
 /* HEADER */
 
-.logo{
+.logo {
   position: absolute;
   width: 100px;
   top: 0px;
@@ -109,7 +105,7 @@ body {
   position: absolute;
   width: 709.36px;
   height: 982.64px;
-  left: 50% ;
+  left: 50%;
   top: -152px;
 }
 
@@ -230,13 +226,14 @@ Search bar
   position: relative;
   background-color: white;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 .home-section img {
   max-width: 100%;
-  padding-right: 50px;
   float: left;
+  border: 5px solid #8f99ac;
+  border-radius: 20px;
 }
 
 .home-section h2 {
@@ -340,47 +337,90 @@ select option:checked {
   color: #fff;
 }
 
-.footer{
-  position: relative;
-  bottom: 0px;
-  width: 100%;
-  height: 100px;
-  background-color: rgb(255, 255, 255);
-  padding: 10px;
-  border-top: 5px solid #8f99ac;  
-}
-
-
-.yth{
+.yth {
   position: absolute;
   right: 50px;
   bottom: 23px;
 }
 
-.fbh{
+.fbh {
   position: absolute;
   right: 150px;
   bottom: 23px;
 }
 
-.twh{
+.twh {
   position: absolute;
   right: 250px;
   bottom: 23px;
 }
 
-.igh{
+.igh {
   position: absolute;
   right: 350px;
   bottom: 23px;
-  
+
 }
 
+.about{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
 
-.stylisfooter{
-  position: absolute;
-  bottom: 30px;
-  left: 100px;
-  color: rgb(0, 0, 0);
-  font-size: 24px;
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e3e8f1;
+  color: rgb(5, 5, 5);
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-column h2 {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+.footer-column p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color:  rgb(5, 5, 5);
+}
+
+.footer-column ul li a:hover {
+  color: rgb(5, 5, 5);
+}
+
+.fl {
+  display: flex;
+}
+/* 
+Search component
+*/
+
+.search{
+padding: 50px;
 }

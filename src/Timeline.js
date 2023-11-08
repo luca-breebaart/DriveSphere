@@ -24,7 +24,7 @@ function App() {
     axios
       .get('https://car-specs.p.rapidapi.com/v2/cars/makes', {
         headers: {
-          'X-RapidAPI-Key': '838240ee49msh00f26afb964ce26p16bf13jsndbbb7923308a',
+          'X-RapidAPI-Key': '7efb530714msh2068e6ee1436c11p1cfac9jsnccb228054356',
           'X-RapidAPI-Host': 'car-specs.p.rapidapi.com'
         },
       })
@@ -39,7 +39,7 @@ function App() {
   const fetchModels = async (makeId) => {
     const response = await axios.get(`https://car-specs.p.rapidapi.com/v2/cars/makes/${makeId}/models`, {
       headers: {
-        'X-RapidAPI-Key': '838240ee49msh00f26afb964ce26p16bf13jsndbbb7923308a',
+        'X-RapidAPI-Key': '7efb530714msh2068e6ee1436c11p1cfac9jsnccb228054356',
         'X-RapidAPI-Host': 'car-specs.p.rapidapi.com'
       },
     });
@@ -49,7 +49,7 @@ function App() {
   const fetchGenerations = async (modelId) => {
     const response = await axios.get(`https://car-specs.p.rapidapi.com/v2/cars/models/${modelId}/generations`, {
       headers: {
-        'X-RapidAPI-Key': '838240ee49msh00f26afb964ce26p16bf13jsndbbb7923308a',
+        'X-RapidAPI-Key': '7efb530714msh2068e6ee1436c11p1cfac9jsnccb228054356',
         'X-RapidAPI-Host': 'car-specs.p.rapidapi.com'
       },
     });
@@ -59,7 +59,7 @@ function App() {
   const fetchTrims = async (generationsId) => {
     const response = await axios.get(`https://car-specs.p.rapidapi.com/v2/cars/generations/${generationsId}/trims`, {
       headers: {
-        'X-RapidAPI-Key': '838240ee49msh00f26afb964ce26p16bf13jsndbbb7923308a',
+        'X-RapidAPI-Key': '7efb530714msh2068e6ee1436c11p1cfac9jsnccb228054356',
         'X-RapidAPI-Host': 'car-specs.p.rapidapi.com'
       },
     });
@@ -70,7 +70,7 @@ function App() {
   const fetchCarSpecs = async (trimsId) => {
     const response = await axios.get(`https://car-specs.p.rapidapi.com/v2/cars/trims/${trimsId}`, {
       headers: {
-        'X-RapidAPI-Key': '838240ee49msh00f26afb964ce26p16bf13jsndbbb7923308a',
+        'X-RapidAPI-Key': '7efb530714msh2068e6ee1436c11p1cfac9jsnccb228054356',
         'X-RapidAPI-Host': 'car-specs.p.rapidapi.com'
       },
     });

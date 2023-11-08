@@ -1,28 +1,21 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import image from './headerimage.png';
-import carImage from './carimage.jpg';
-import logo from "./Logo.png";
+import image from './images/headerimage.png';
+import carImage from './images/carimage.jpg';
+import logo from "./images/Logo.png";
 import { useEffect, useState } from "react";
 import './App.css'
+import Footer from "./components/footer";
 
 import axios from "axios";
 import { Link } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 
-import youtube from "./youtube_icon.svg";
-import facebook from "./facebook_icon.svg";
-import twitter from "./twitter_icon.svg";
-import instagram from "./instagram_icon.svg";
-
-
-
-
-
-
-
-
+import youtube from "./images/youtube_icon.svg";
+import facebook from "./images/facebook_icon.svg";
+import twitter from "./images/twitter_icon.svg";
+import instagram from "./images/instagram_icon.svg";
 
 const Home = () => {
     return (
@@ -36,7 +29,6 @@ const Home = () => {
                     <NavLink to="/Compare" activeclassname="active">Compare</NavLink>
                     <NavLink to="/Timeline" activeclassname="active">Timeline</NavLink>
                 </nav>
-
 
                 <div className="container d-flex justify-content-center">
                     <img className="logo" src={logo} alt="image" />
@@ -55,6 +47,8 @@ const Home = () => {
             </div>
 
             <div className="section-1">
+
+
 
 
                 <div className="d-flex align-items-center justify-content-center">
@@ -88,41 +82,37 @@ const Home = () => {
                 </div>
 
                 <div className="home-section">
+
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6">
-                                <img src={carImage} alt="Car" className="car-image" />
-                            </div>
-                            <div className="col-md-6 text">
-                                <h2>Find the Best Car for You</h2>
-                                <p>Search through our vast database of cars to find the one that suits your needs. We offer comprehensive information on cars, including specifications, features and graphs displaying relavant and informative information. With our user-friendly platform, you can easily compare different cars and make an informed decision.</p>
-                                <a href="/compare" className="btn btn-primary btn-lg">Compare Cars</a>
+                            <div className="about">
+                                <div className="col-md-6">
+                                    <img src={carImage} alt="Car" className="img-fluid car-image" />
+                                </div>
+                                <div className="col-md-6 d-flex align-items-left">
+                                    <div className="text">
+                                        <h2>Find the Best Car for You</h2>
+                                        <p>
+                                            Search through our vast database of cars to find the one that suits your needs. We offer comprehensive information on cars, including specifications, features, and graphs displaying relevant and informative information. With our user-friendly platform, you can easily compare different cars and make an informed decision.
+                                        </p>
+                                        <a href="/compare" className="btn btn-primary btn-lg">Compare Cars</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <br></br>
-                <br></br>
-                <br></br>
-
-                <div className="footer">
-                    <div className="stylisfooter">
-                        DRIVESHPERE ©
-                    </div>
-                    <div className="yth">
-                        <img src={youtube} />
-                    </div>
-                    <div className="fbh">
-                        <img src={facebook} />
-                    </div>
-                    <div className="twh">
-                        <img src={twitter} />
-                    </div>
-                    <div className="igh">
-                        <img src={instagram} alt="Car" className="car-image" />
-                    </div>
+                
+                <div>
+                    
                 </div>
+
+
+                <br></br>
+                <br></br>
+                <br></br>
+                <Footer />
+
             </div>
 
         </div>
