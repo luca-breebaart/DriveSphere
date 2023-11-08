@@ -24,7 +24,7 @@
     
 </p>
 <!-- TABLE OF CONTENTS -->
-### Table of Contents
+<h3>Table of Contents</h3>
 
 * [About the Project](#about-the-project)
   * [Project Description](#project-description)
