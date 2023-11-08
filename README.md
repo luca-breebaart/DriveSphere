@@ -5,7 +5,7 @@
 </br>
 <p align="center">
 
-  <a href="https://github.com/username/projectname">
+  <a href="https://github.com/luca-breebaart/DriveSphere">
     <img src="src/images/Logo.png" alt="Logo" width="140" height="140">
   </a>
   
