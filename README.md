@@ -49,7 +49,7 @@
 ## About the Project
 <!-- header image of project -->
 <br>
-![5](mockups/header.jpg)
+![header](mockups/header.jpg)
 <br>
 
 ### Project Description
