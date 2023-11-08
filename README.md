@@ -130,9 +130,12 @@ The goal of this application is to provide users with an easy way to compare and
 
 ### Wireframes
 
-![wireframes1](wireframes/Index.png)
-![wireframes2](wireframes/Timeline.png)
-![wireframes3](wireframes/Compare_page.png)
+![wireframes1](DV200_wireframes/Index.png)
+<br>
+![wireframes2](DV200_wireframes/Timeline.png)
+<br>
+![wireframes3](DV200_wireframes/Compare_page.png)
+<br>
 
 ## Development Process
 
@@ -167,9 +170,13 @@ The goal of this application is to provide users with an easy way to compare and
 ### Mockups
 
 ![1](mockups/1.jpg)
+<br>
 ![2](mockups/2.jpg)
+<br>
 ![3](mockups/3.jpg)
+<br>
 ![4](mockups/4.jpg)
+<br>
 
 
 <!-- VIDEO DEMONSTRATION -->
