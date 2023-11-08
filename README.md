@@ -185,7 +185,7 @@ The goal of this application is to provide users with an easy way to compare and
 
 To see a run-through of the application, click below:
 
-[View Demonstration](path/to/video/demonstration)
+[View Demonstration](BreebaartLuca_221345_DV200_Presentation_Video.mp4)
 
 <!-- AUTHORS -->
 ## Authors
