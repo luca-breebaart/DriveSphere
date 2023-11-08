@@ -48,9 +48,9 @@
 <!--PROJECT DESCRIPTION-->
 ## About the Project
 <!-- header image of project -->
-<br>
+
 ![header](mockups/header.jpg)
-<br>
+
 
 ### Project Description
 
