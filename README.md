@@ -15,8 +15,7 @@
    Using our website you can search through our vast database of cars to find the one that suits your needs. We offer comprehensive information on cars, including specifications, features, and graphs displaying relevant and informative information. 
    <br>
       <a href="https://github.com/luca-breebaart/DriveSphere"><strong>Explore the docs »</strong></a>
-   <br />
-   <br />
+   <br><br><br>
    <a href="//">View Demo Video</a>
     ·
 </p>
