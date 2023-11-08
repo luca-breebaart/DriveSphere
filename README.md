@@ -104,12 +104,10 @@ Run the following in the command-line to install all the required dependencies:
 
 ## Features and Functionality
 
-![image2][image2]
 ### Home Page
 The home page provides an overview of the website and its features. It includes a header with a navigation bar, a logo, and an image. There is also a description of the Car Specs API, which is used to access a vast database of car details.
 The page includes a search form, where users can select a make, model, and year to find a car. 
 
-![image3][image3]
 ###Compare Page
 
 Users can select a car make, model, generation, and trim using dropdown menus.
@@ -121,20 +119,20 @@ When a user adds a car, the technical specifications and dimensions of that car 
 
 - A polar area chart showing the number of cylinders, gears, and valves per cylinder for the selected car.
 
-![image4][image4]
 ### Timeline Page
 
 The user can select a car make, model, generation, and trim, and the application retrieves the cars specifications from the API and displays them in a graph format using Chart.js. The Web page also allows the user to switch between the different graphs; Fuel consumption, acceleration and range
 
 The goal of this application is to provide users with an easy way to compare and visualize the specifications of different car models.
 
-![image5][image5]
 
 ## Concept Process
 
 ### Wireframes
 
-![image7][image7]
+![wireframes1](wireframes/Index.png)
+![wireframes2](wireframes/Timeline.png)
+![wireframes3](wireframes/Compare_page.png)
 
 ## Development Process
 
@@ -168,9 +166,11 @@ The goal of this application is to provide users with an easy way to compare and
 
 ### Mockups
 
-![image9][image9]
-<br>
-![image10][image10]
+![1](mockups/1.jpg)
+![2](mockups/2.jpg)
+![3](mockups/3.jpg)
+![4](mockups/4.jpg)
+
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
