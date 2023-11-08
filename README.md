@@ -16,8 +16,8 @@
     
    <br>
       <a href="https://github.com/luca-breebaart/DriveSphere"><strong>Explore the docs »</strong></a>
-   <br>
-    
+   <br />
+   <br />
    <a href="//">View Demo Video</a>
     ·
 </p>
@@ -60,7 +60,7 @@
 
 ### Project Description
 
-This is a website that allows users to search for cars and compare their specifications. It includes three pages: Home, Compare, and Timeline, all of which . The Car Specs API, available on RapidAPI, is a powerful tool for accessing information about cars. This API allows users to access a vast database of car details, including make, model, year, trim level, pricing, features, specifications, and expert reviews. Using this Data, specs on each vehicle are displayed and displayed using chart.js on this site.
+This is a website that allows users to search for cars and compare their specifications. It includes three pages: Home, Compare, and Timeline, all of which. The Car Specs API, available on RapidAPI, is a powerful tool for accessing car information. This API allows users to access a vast database of car details, including make, model, year, trim level, pricing, features, specifications, and expert reviews. Using this data, specs on each vehicle are displayed using chart.js on this site.
 
 ### Built With
 
@@ -69,10 +69,10 @@ This is a website that allows users to search for cars and compare their specifi
 * [Technology Name](path/to/technology/website)
 
 <!-- GETTING STARTED -->
-<!-- Make sure to add appropriate information about what prerequesite technologies the user would need and also the steps to install your project on their own mashines -->
+<!-- Make sure to add appropriate information about what prerequisite technologies the user would need and also the steps to install your project on their own machines -->
 ## Getting Started
 
-The following instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+The following instructions will get you a copy of the project up and running on your local machine for development and testing.
 
 ### Prerequisites
 
@@ -165,7 +165,7 @@ The goal of this application is to provide users with an easy way to compare and
 
 ### Future Implementation
 
-- Expanded Data Visualization: Adding more visual elements to present data for better comprehension. Such as adding images to the selcted car.
+- Expanded Data Visualization: Adding more visual elements to present data for better comprehension. Such as adding images to the selected car.
 
 - Optimization: Streamlining code and processes for better performance and scalability.
 
@@ -183,7 +183,7 @@ The goal of this application is to provide users with an easy way to compare and
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
 
-To see a run through of the application, click below:
+To see a run-through of the application, click below:
 
 [View Demonstration](path/to/video/demonstration)
 
