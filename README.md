@@ -110,7 +110,7 @@ Run the following in the command-line to install all the required dependencies:
 The home page provides an overview of the website and its features. It includes a header with a navigation bar, a logo, and an image. There is also a description of the Car Specs API, which is used to access a vast database of car details.
 The page includes a search form, where users can select a make, model, and year to find a car. 
 
-###Compare Page
+### Compare Page
 
 Users can select a car make, model, generation, and trim using dropdown menus.
 
